@@ -7,7 +7,6 @@ gem 'rails', '4.0.8'
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'sprockets', '2.11.0'
 gem 'bcrypt-ruby', '3.1.2'
-gem 'ruby_gntp', '~> 0.3.4'
 
 group :development, :test do
 # Use sqlite3 as the database for Active Record
@@ -18,6 +17,7 @@ group :development, :test do
   gem 'guard-spork', '1.5.0'
   gem 'childprocess', '0.3.6'
   gem 'growl', '1.0.3'
+  gem 'ruby_gntp', '~> 0.3.4'
 end
 
 group :test do
